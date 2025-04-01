@@ -1,4 +1,4 @@
-# Making faces converts :) to smily emoji and :( as sad emoji
+# This file converts :) to smily emoji and :( as sad emoji
 
 # Main function that calls for convert and print
 def main():
