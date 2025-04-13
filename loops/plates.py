@@ -1,3 +1,4 @@
+# This file returns a valid/invalid plate
 def main():
     plate = input("Plate: ")
     if is_valid(plate):
@@ -5,6 +6,7 @@ def main():
     else:
         print("Invalid")
 
+# Checks the validations
 def is_valid(s):
     if len(s) < 2 or len(s) > 6:
         return False
@@ -17,6 +19,7 @@ def is_valid(s):
     else:
         return True
 
+# Checks plate format
 def is_plate_format(s):
     for i in range(len(s)):
         if i > 1:
