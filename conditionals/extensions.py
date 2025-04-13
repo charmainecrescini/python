@@ -1,3 +1,6 @@
+# This file determines the file extensions and return the type
+
+# Main function that accepts file name
 def main():
     file = input("File name: ")
 
@@ -7,6 +10,7 @@ def main():
     else:
         print("application/octet-stream")
 
+# Match the file extension types
 def extension(f):
     f = f.split(".")[1].lower()
     match f:
